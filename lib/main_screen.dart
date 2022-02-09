@@ -59,6 +59,7 @@ class _MainScreenState extends State<MainScreen> {
     );
     Timer? timer;
     ZoomView zoom = ZoomView();
+    // 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
     try{
       await zoom.initZoom(zoomOptions).then((results) {
         if(results[0] == 0) {
